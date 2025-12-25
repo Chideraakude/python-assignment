@@ -1,0 +1,11 @@
+
+
+principal_Amount = int(input("Enter your principlal Amount: "))
+rate = float(input("Enter Your Rate Please: "))
+duration = int(input("Please Enter the duration"))
+
+monthly_Payment = principal_Amount * rate(1 + rate)**duration / (1 + rate)**duration - 1
+
+print("The Principal Amount Is: ", principal_Amount)
+printf("The Annual Interest Rate Is: ", rate)
+printf("Your Monthly Payment is %.2f%n", monthly_Payment)
